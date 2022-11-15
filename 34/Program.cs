@@ -4,7 +4,7 @@
 Console.Clear();
 Console.Write("Задайте размер массива: ");
 int size = int.Parse(Console.ReadLine());
-double chet = 0;
+int chet = 0;
 int[] array = GetRandomArray(size, 100, 1000);
 Console.WriteLine($"[{String.Join(", ", array)}]");
 Console.WriteLine($"четных чисел: " + chet);
